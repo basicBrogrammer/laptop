@@ -1,6 +1,3 @@
-#!/bin/sh
-
-brew bundle --file=- <<EOF
 brew "autojump" # directory changer
 brew "direnv" # ENV vars by directory
 # brew "nodenv"
@@ -24,7 +21,5 @@ cask "zoomus"
 tap "d12frosted/emacs-plus"
 brew "emacs-plus", args: ['HEAD', 'with-natural-title-bars']
 linkapps "emacs-plus"
-
-EOF
 
 # git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
