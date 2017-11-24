@@ -1,0 +1,25 @@
+#!/bin/sh
+
+brew bundle --file=- <<EOF
+brew "autojump" # directory changer
+brew "direnv" # ENV vars by directory
+brew "emacs-plus" # Spacemacs
+brew "nodenv"
+brew "rbenv"
+
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
+
+cask "amazon-music"
+cask "caffeine"
+cask "expo-xde"
+cask "firefox"
+cask "iterm2"
+cask "postman"
+cask "slack"
+cask "spectacle"
+cask "zoomus"
+
+EOF
+
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
