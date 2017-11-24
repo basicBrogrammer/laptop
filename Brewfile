@@ -19,7 +19,6 @@ cask "zoomus"
 
 # Spacemacs
 tap "d12frosted/emacs-plus"
-brew "emacs-plus", args: ['HEAD', 'with-natural-title-bars']
-linkapps "emacs-plus"
+brew "emacs-plus", args: ['HEAD', 'with-natural-title-bars'], link: true
 
 # git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
