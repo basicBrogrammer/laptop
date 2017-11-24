@@ -3,8 +3,8 @@
 brew bundle --file=- <<EOF
 brew "autojump" # directory changer
 brew "direnv" # ENV vars by directory
-brew "nodenv"
-brew "rbenv"
+# brew "nodenv"
+# brew "rbenv"
 
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
