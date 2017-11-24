@@ -9,6 +9,7 @@ brew "direnv" # ENV vars by directory
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
+cask "alfred"
 cask "amazon-music"
 cask "caffeine"
 cask "expo-xde"
