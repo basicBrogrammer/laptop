@@ -1,5 +1,5 @@
 #!/bin/sh
-brew bundle --file=$HOME/laptopLocal/Brewfile
+# brew bundle --file=$HOME/laptop-local/Brewfile
 
 if [ ! -d "$HOME/dotfiles/oh-my-zsh/custom/themes" ]; then
   mkdir "$HOME/dotfiles/oh-my-zsh/custom/themes"
@@ -10,11 +10,12 @@ if [ ! -L "$HOME/dotfiles/oh-my-zsh/custom/themes/agnoster2.zsh-theme" ]; then
     ln -s $HOME/dotfiles/zsh/agnoster2.zsh-theme $HOME/dotfiles/oh-my-zsh/custom/themes/agnoster2.zsh-theme
 fi
 
-if [ ! -L "$HOME/dotfiles/oh-my-zsh/custom/themes/agnoster2.zsh-theme" ]; then
+if [ ! -L "$HOME/.oh-my-zsh" ]; then
     ln -s $HOME/dotfiles/oh-my-zsh/ $HOME/.oh-my-zsh
 fi
 
-if [ ! -d "$HOME/dotfiles/fonts" ]; then
+
+if [ ! -d "$HOME/fonts" ]; then
     echo 'cloning powerline/fonts..'
     cd $HOME
     git clone https://github.com/powerline/fonts.git --depth=1
@@ -22,8 +23,8 @@ if [ ! -d "$HOME/dotfiles/fonts" ]; then
     cd $HOME/fonts
     . "install.sh"
     cd ..
-    echo 'rm -rf fonts'
-    rm -rf fonts
     echo 'installed powerline/fonts'
     echo 'now change in iterm2'
 fi
+
+echo 'Done-zo...'
