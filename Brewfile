@@ -18,6 +18,7 @@ cask "postman"
 cask "slack"
 cask "spectacle" # window management keybindings
 cask "virtualbox"
+cask "visual-studio-code"
 cask "zoomus" # conference calls
 
 # Spacemacs
