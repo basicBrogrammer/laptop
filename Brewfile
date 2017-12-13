@@ -9,6 +9,7 @@ tap "caskroom/cask"
 
 cask "alfred" # awesome spotlight replacement
 cask "amazon-music"
+cask "atom"
 cask "caffeine" # stay awake mac
 cask "expo-xde" # react-native dev made easy
 cask "firefox"
@@ -18,7 +19,6 @@ cask "postman"
 cask "slack"
 cask "spectacle" # window management keybindings
 cask "virtualbox"
-cask "visual-studio-code"
 cask "zoomus" # conference calls
 
 # Spacemacs
