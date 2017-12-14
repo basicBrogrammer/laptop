@@ -1,6 +1,7 @@
 brew "autojump" # directory changer
 brew "direnv" # ENV vars by directory
-brew "geckodriver" # firefox webdriver fo selenium
+brew "neovim"
+# brew "geckodriver" # firefox webdriver fo selenium
 # brew "nodenv"
 # brew "rbenv"
 
@@ -18,8 +19,8 @@ cask "opera"
 cask "postman"
 cask "slack"
 cask "spectacle" # window management keybindings
-cask "virtualbox"
-cask "zoomus" # conference calls
+# cask "virtualbox"
+# cask "zoomus" # conference calls
 
 # Spacemacs
 tap "d12frosted/emacs-plus"
