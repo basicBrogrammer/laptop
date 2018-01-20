@@ -9,7 +9,7 @@ cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
 cask "alfred" # awesome spotlight replacement
-cask "anaconda" 
+cask "anaconda"
 cask "duet"
 cask "licecap"
 cask "amazon-music"
@@ -21,6 +21,7 @@ cask "iterm2"
 cask "opera"
 cask "postman"
 cask "slack"
+cask "visual-studio-code"
 cask "spectacle" # window management keybindings
 # cask "virtualbox"
 # cask "zoomus" # conference calls
