@@ -9,6 +9,7 @@ cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
 cask "alfred" # awesome spotlight replacement
+cask "anaconda" 
 cask "duet"
 cask "licecap"
 cask "amazon-music"
