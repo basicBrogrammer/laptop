@@ -13,6 +13,7 @@ cask "anaconda"
 cask "duet"
 cask "licecap"
 cask "amazon-music"
+cask "spotify"
 cask "atom"
 cask "caffeine" # stay awake mac
 cask "expo-xde" # react-native dev made easy
