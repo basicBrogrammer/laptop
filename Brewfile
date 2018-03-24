@@ -1,6 +1,7 @@
 brew "autojump" # directory changer
 brew "direnv" # ENV vars by directory
 brew "neovim"
+brew "fzf"
 # brew "geckodriver" # firefox webdriver fo selenium
 # brew "nodenv"
 # brew "rbenv"
@@ -12,17 +13,17 @@ cask "alfred" # awesome spotlight replacement
 cask "anaconda"
 cask "duet"
 cask "licecap"
-cask "amazon-music"
+# cask "amazon-music"
 cask "spotify"
-cask "atom"
+# cask "atom"
 cask "caffeine" # stay awake mac
-cask "expo-xde" # react-native dev made easy
-cask "firefox"
+# cask "expo-xde" # react-native dev made easy
+# cask "firefox"
 cask "iterm2"
-cask "opera"
+# cask "opera"
 cask "postman"
 cask "slack"
-cask "visual-studio-code"
+# cask "visual-studio-code"
 cask "spectacle" # window management keybindings
 # cask "virtualbox"
 # cask "zoomus" # conference calls
