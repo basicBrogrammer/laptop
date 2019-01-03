@@ -2,6 +2,7 @@ brew "autojump" # directory changer
 brew "direnv" # ENV vars by directory
 brew "neovim"
 brew "fzf"
+brew "ripgrep"
 # brew "geckodriver" # firefox webdriver fo selenium
 # brew "nodenv"
 # brew "rbenv"
