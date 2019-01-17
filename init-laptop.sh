@@ -10,4 +10,4 @@ else
     echo ".laptop.local already linked..."
 fi
 
-echo 'now run `sh latop/mac 2>&1 | tee ~/laptop.log`'
+echo 'now run `sh mac 2>&1 | tee ~/laptop.log`'

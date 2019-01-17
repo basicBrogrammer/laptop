@@ -1,5 +1,5 @@
 #!/bin/sh
-# brew bundle --file=$HOME/laptop-local/Brewfile
+brew bundle --file=$HOME/laptop-local/Brewfile
 
 if [ ! -d "$HOME/dotfiles/oh-my-zsh/custom/themes" ]; then
   mkdir "$HOME/dotfiles/oh-my-zsh/custom/themes"
@@ -26,5 +26,16 @@ if [ ! -d "$HOME/fonts" ]; then
     echo 'installed powerline/fonts'
     echo 'now change in iterm2'
 fi
+export RCRC=$HOME/dotfiles/rcrc
+
+# NOTE: this hasn't been tested
+echo 'linking rc files'
+rcup
+# add vim-plug to neovim
+echo 'installing vim-plug'
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \\n    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+echo 'installing neovim for pip3'
+pip3 install neovim
 
 echo 'Done-zo...'

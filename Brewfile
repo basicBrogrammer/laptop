@@ -1,8 +1,9 @@
 brew "autojump" # directory changer
 brew "direnv" # ENV vars by directory
-brew "neovim"
 brew "fzf"
+brew "neovim"
 brew "ripgrep"
+brew 'htop'
 # brew "geckodriver" # firefox webdriver fo selenium
 # brew "nodenv"
 # brew "rbenv"
@@ -13,6 +14,7 @@ tap "caskroom/cask"
 # must haves
 cask "alfred" # awesome spotlight replacement
 cask "caffeine" # stay awake mac
+cask "dozer"
 cask "iterm2"
 cask "licecap" # gifs
 cask "postman"
@@ -33,11 +35,11 @@ cask "google-chrome"
 
 # music
 # cask "amazon-music"
-# cask "spotify"
-cask "deezer"
+cask "spotify"
+# cask "deezer"
 
 # editors
-cask "atom"
+# cask "atom"
 # cask "visual-studio-code"
 
 # Spacemacs
