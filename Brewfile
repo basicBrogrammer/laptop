@@ -19,6 +19,7 @@ cask "iterm2"
 cask "licecap" # gifs
 cask "postman"
 cask "slack"
+cask "discord"
 cask "spectacle" # window management keybindings
 cask "virtualbox"
 
