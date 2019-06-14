@@ -22,6 +22,7 @@ cask "slack"
 cask "discord"
 cask "spectacle" # window management keybindings
 cask "virtualbox"
+cask "alacritty"
 
 # Misc
 # cask "duet"
