@@ -5,7 +5,7 @@ curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/ma
 
 if [ ! -L "$HOME/.laptop.local" ]; then
     echo "Symlinking .laptop.local..."
-    ln -s  "$HOME/laptopLocal/laptop.local" "$HOME/.laptop.local"
+    ln -s  "$HOME/laptop-local/laptop.local" "$HOME/.laptop.local"
 else
     echo ".laptop.local already linked..."
 fi

@@ -49,3 +49,7 @@ cask "spotify"
 # brew "emacs-plus", args: ['HEAD', 'with-natural-title-bars'], link: true
 
 # git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+# devicons
+tap 'homebrew/cask-fonts'
+cask 'font-go-mono-nerd-font'
