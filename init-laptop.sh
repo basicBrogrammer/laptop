@@ -11,3 +11,5 @@ else
 fi
 
 echo 'now run `sh mac 2>&1 | tee ~/laptop.log`'
+echo 'You may want to install: \n'
+echo '1. amphetamine'

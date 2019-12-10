@@ -1,32 +1,38 @@
-brew "autojump" # directory changer
-brew "direnv" # ENV vars by directory
-brew "fzf"
-brew "neovim"
-brew "ripgrep"
+brew 'autojump' # directory changer
+brew 'direnv' # ENV vars by directory
+brew 'fzf'
+brew 'neovim'
+brew 'ripgrep'
 brew 'htop'
+brew 'universal-ctags/universal-ctags/universal-ctags', args: ['HEAD']
+brew 'mas'
 # brew "geckodriver" # firefox webdriver fo selenium
 # brew "nodenv"
 # brew "rbenv"
 
-cask_args appdir: "/Applications"
-tap "caskroom/cask"
+cask_args appdir: '/Applications'
+tap 'caskroom/cask'
+
+# Mac apple store
+# mas 'amphetamine'
 
 # must haves
-cask "alfred" # awesome spotlight replacement
-cask "caffeine" # stay awake mac
-cask "dozer"
-cask "iterm2"
-cask "licecap" # gifs
-cask "postman"
-cask "slack"
-cask "discord"
-cask "spectacle" # window management keybindings
-cask "virtualbox"
-cask "alacritty"
+# cask 'caffeine' # stay awake mac
+cask 'alacritty'
+cask 'alfred' # awesome spotlight replacement
+cask 'discord'
+cask 'dozer'
+cask 'iterm2'
+cask 'licecap' # gifs
+cask 'postman'
+cask 'slack'
+cask 'spectacle' # window management keybindings
+cask 'virtualbox'
 
 # Misc
 # cask "duet"
-cask "google-chrome"
+cask 'google-chrome'
+# cask 'blisk'
 # cask "firefox"
 # cask "opera"
 # cask "zoomus" # conference calls
@@ -37,7 +43,7 @@ cask "google-chrome"
 
 # music
 # cask "amazon-music"
-cask "spotify"
+cask 'spotify'
 # cask "deezer"
 
 # editors
