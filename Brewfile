@@ -5,8 +5,8 @@ brew 'neovim'
 brew 'ripgrep'
 brew 'htop'
 brew 'universal-ctags/universal-ctags/universal-ctags', args: ['HEAD']
-brew 'mas'
-# brew "geckodriver" # firefox webdriver fo selenium
+# brew 'mas'
+brew "geckodriver" # firefox webdriver fo selenium
 # brew "nodenv"
 # brew "rbenv"
 
@@ -33,7 +33,7 @@ cask 'virtualbox'
 # cask "duet"
 cask 'google-chrome'
 # cask 'blisk'
-# cask "firefox"
+cask "firefox"
 # cask "opera"
 # cask "zoomus" # conference calls
 
